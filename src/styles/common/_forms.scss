@@ -1,6 +1,6 @@
 .input,
 .textarea {
-  @apply border border-solid w-full;
+  @apply border-solid w-full;
   transition: border-color 0.3s ease-in-out, color 0.3s ease-in-out;
 
   &::placeholder,

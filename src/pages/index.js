@@ -8,7 +8,6 @@ import Layout from '@/components/Layout'
 
 import Logo from '@/icons/Logo'
 
-
 const HomePageTemplate = ({ data }) => {
   return (
     <>
@@ -19,9 +18,13 @@ const HomePageTemplate = ({ data }) => {
               <div className='logo'>
                 <Logo />
               </div>
-               <p className="text-xs mt-2">{data.version}</p>
+              <p className='text-xs mt-2'>{data.version}</p>
             </div>
-            <ReactMarkdown children={data.description} className="text-center mt-6" allowDangerousHtml />
+            <ReactMarkdown
+              children={data.description}
+              className='text-center mt-6'
+              allowDangerousHtml
+            />
             {data.links.length > 0 ? (
               <div className='flex justify-center flex-wrap items-center mt-6'>
                 {data.links.map(({ link }, i) => {
