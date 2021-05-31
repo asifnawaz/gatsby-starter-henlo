@@ -8,7 +8,7 @@ module.exports = {
     baseTitle: 'Henlo.',
     lang: 'en',
     twitterHandle: '@cleancommit',
-    siteUrl: `localhost:8000`,
+    siteUrl: `https://sirfhungama.com`,
     image: '',
     themeColor: '#fff',
     keyword: 'gatsby-starter, blazing fast static site',
